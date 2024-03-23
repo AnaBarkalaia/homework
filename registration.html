@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <form action="profile.py" method="get">
+        <div>
+            <label for="first name">First name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="name" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="surname">Last name:</label>
+            <input type="text" name="surname" id="surname" placeholder="surname">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="gender">Gender: </label>
+
+            <label>Man</label>
+            <input type="radio" name="gender" id="man">
+
+            <label>Woman</label>
+            <input type="radio" name="gender" id="woman">
+
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdate">BDate:</label>
+            <input type="date" name="bdate" id="bdate">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="forms@form.com">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" placeholder="password" maxlength="12">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="Password confirmasion">Password confirmasion</label>
+            <input type="password" name="passwordconfirm" id="passwordconfirm">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="checkbox">I have read and agreed to all the terms:</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+    <p> Already have an account?<a href="login.html">Login</a></p>
+
+
+</body>
+</html>
